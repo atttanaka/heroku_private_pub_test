@@ -1,0 +1,7 @@
+production:
+  server: "https://test-private-pub-atmac.herokuapp.com/faye"
+
+#this is the address of this heroku app once you’ve deployed it, plus the `/faye` extension.
+
+  secret_token: 24b802dcba7a1b925ad9df253c5d0fbab9593db1bbceef6449092cc619149650
+  signature_expiration: 3600 # one day
